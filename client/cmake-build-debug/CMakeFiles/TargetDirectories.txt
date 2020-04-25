@@ -1,0 +1,3 @@
+/mnt/w/game2/client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/w/game2/client/cmake-build-debug/CMakeFiles/client.dir
+/mnt/w/game2/client/cmake-build-debug/CMakeFiles/edit_cache.dir

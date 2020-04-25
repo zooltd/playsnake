@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.5)
+project(server C)
+set(CMAKE_C_STANDARD 99)
+find_package(Threads)
+add_executable(server server.c game.c thread_pool.c)
+target_link_libraries(server ${CMAKE_THREAD_LIBS_INIT})
