@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/mnt/w/game2/server/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/3.10.2/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_10b2e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_10b2e.dir/build.make CMakeFiles/cmTC_10b2e.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_10b2e.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_10b2e.dir/testCCompiler.c.o   -c /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_10b2e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10b2e.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_10b2e.dir/testCCompiler.c.o  -o cmTC_10b2e 
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4205d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4205d.dir/build.make CMakeFiles/cmTC_4205d.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4205d.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4205d.dir/testCCompiler.c.o   -c /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_4205d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4205d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4205d.dir/testCCompiler.c.o  -o cmTC_4205d 
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c9bf8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c9bf8.dir/build.make CMakeFiles/cmTC_c9bf8.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_c9bf8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9bf8.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o  -o cmTC_c9bf8 
+Run Build Command:"/usr/bin/make" "cmTC_5633e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5633e.dir/build.make CMakeFiles/cmTC_5633e.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_5633e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5633e.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o  -o cmTC_5633e 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
@@ -48,24 +48,24 @@ Thread model: posix
 gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9bf8' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cch2xCF9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c9bf8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9bf8' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5633e' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwsrR2V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5633e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5633e' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c9bf8/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c9bf8.dir/build.make CMakeFiles/cmTC_c9bf8.dir/build]
-  ignore line: [make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_c9bf8]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9bf8.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o  -o cmTC_c9bf8 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_5633e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5633e.dir/build.make CMakeFiles/cmTC_5633e.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_5633e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5633e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o  -o cmTC_5633e ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
@@ -77,13 +77,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c9bf8' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cch2xCF9.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c9bf8 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5633e' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwsrR2V.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_5633e /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cch2xCF9.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwsrR2V.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -101,7 +101,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c9bf8] ==> ignore
+    arg [cmTC_5633e] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
@@ -113,7 +113,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
-    arg [CMakeFiles/cmTC_c9bf8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_5633e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -143,17 +143,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b08c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b08c0.dir/build.make CMakeFiles/cmTC_b08c0.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b08c0.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_b08c0.dir/feature_tests.c.o   -c /mnt/w/game2/server/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b08c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b08c0.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_b08c0.dir/feature_tests.c.o  -o cmTC_b08c0 
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dfd0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfd0a.dir/build.make CMakeFiles/cmTC_dfd0a.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfd0a.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_dfd0a.dir/feature_tests.c.o   -c /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dfd0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfd0a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_dfd0a.dir/feature_tests.c.o  -o cmTC_dfd0a 
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -163,17 +163,17 @@ make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMa
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9cb4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9cb4.dir/build.make CMakeFiles/cmTC_d9cb4.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d9cb4.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_d9cb4.dir/feature_tests.c.o   -c /mnt/w/game2/server/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d9cb4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9cb4.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_d9cb4.dir/feature_tests.c.o  -o cmTC_d9cb4 
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_90c68/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90c68.dir/build.make CMakeFiles/cmTC_90c68.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90c68.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_90c68.dir/feature_tests.c.o   -c /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_90c68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90c68.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_90c68.dir/feature_tests.c.o  -o cmTC_90c68 
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -183,17 +183,17 @@ make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMa
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64152/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64152.dir/build.make CMakeFiles/cmTC_64152.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64152.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_64152.dir/feature_tests.c.o   -c /mnt/w/game2/server/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_64152
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64152.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_64152.dir/feature_tests.c.o  -o cmTC_64152 
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_22f25/fast"
+/usr/bin/make -f CMakeFiles/cmTC_22f25.dir/build.make CMakeFiles/cmTC_22f25.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_22f25.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_22f25.dir/feature_tests.c.o   -c /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_22f25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_22f25.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_22f25.dir/feature_tests.c.o  -o cmTC_22f25 
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -201,30 +201,30 @@ make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMa
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00274/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00274.dir/build.make CMakeFiles/cmTC_00274.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00274.dir/CheckIncludeFile.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_00274.dir/CheckIncludeFile.c.o   -c /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_00274
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00274.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_00274.dir/CheckIncludeFile.c.o  -o cmTC_00274 
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6de23/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6de23.dir/build.make CMakeFiles/cmTC_6de23.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6de23.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6de23.dir/CheckIncludeFile.c.o   -c /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6de23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de23.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6de23.dir/CheckIncludeFile.c.o  -o cmTC_6de23 
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cfca3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cfca3.dir/build.make CMakeFiles/cmTC_cfca3.dir/build
-make[1]: Entering directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cfca3.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cfca3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_cfca3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cfca3.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_cfca3.dir/CheckFunctionExists.c.o  -o cmTC_cfca3 -lpthread 
-make[1]: Leaving directory '/mnt/w/game2/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c3108/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3108.dir/build.make CMakeFiles/cmTC_c3108.dir/build
+make[1]: Entering directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c3108.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3108.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3108.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c3108.dir/CheckFunctionExists.c.o  -o cmTC_c3108 -lpthread 
+make[1]: Leaving directory '/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 

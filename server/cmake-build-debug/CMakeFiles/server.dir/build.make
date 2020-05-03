@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/w/game2/server
+CMAKE_SOURCE_DIR = /mnt/w/cpp_workplace/playsnake/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/w/game2/server/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/server.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/server.dir/flags.make
 
 CMakeFiles/server.dir/server.c.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/server.c.o: ../server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/w/game2/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/server.dir/server.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/server.dir/server.c.o   -c /mnt/w/game2/server/server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/server.dir/server.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/server.dir/server.c.o   -c /mnt/w/cpp_workplace/playsnake/server/server.c
 
 CMakeFiles/server.dir/server.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/server.dir/server.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/w/game2/server/server.c > CMakeFiles/server.dir/server.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/w/cpp_workplace/playsnake/server/server.c > CMakeFiles/server.dir/server.c.i
 
 CMakeFiles/server.dir/server.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/server.dir/server.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/w/game2/server/server.c -o CMakeFiles/server.dir/server.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/w/cpp_workplace/playsnake/server/server.c -o CMakeFiles/server.dir/server.c.s
 
 CMakeFiles/server.dir/server.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/server.dir/server.c.o.provides.build: CMakeFiles/server.dir/server.c.
 
 CMakeFiles/server.dir/game.c.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/game.c.o: ../game.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/w/game2/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/server.dir/game.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/server.dir/game.c.o   -c /mnt/w/game2/server/game.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/server.dir/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/server.dir/game.c.o   -c /mnt/w/cpp_workplace/playsnake/server/game.c
 
 CMakeFiles/server.dir/game.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/server.dir/game.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/w/game2/server/game.c > CMakeFiles/server.dir/game.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/w/cpp_workplace/playsnake/server/game.c > CMakeFiles/server.dir/game.c.i
 
 CMakeFiles/server.dir/game.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/server.dir/game.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/w/game2/server/game.c -o CMakeFiles/server.dir/game.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/w/cpp_workplace/playsnake/server/game.c -o CMakeFiles/server.dir/game.c.s
 
 CMakeFiles/server.dir/game.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/server.dir/game.c.o.provides.build: CMakeFiles/server.dir/game.c.o
 
 CMakeFiles/server.dir/thread_pool.c.o: CMakeFiles/server.dir/flags.make
 CMakeFiles/server.dir/thread_pool.c.o: ../thread_pool.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/w/game2/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/server.dir/thread_pool.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/server.dir/thread_pool.c.o   -c /mnt/w/game2/server/thread_pool.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/server.dir/thread_pool.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/server.dir/thread_pool.c.o   -c /mnt/w/cpp_workplace/playsnake/server/thread_pool.c
 
 CMakeFiles/server.dir/thread_pool.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/server.dir/thread_pool.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/w/game2/server/thread_pool.c > CMakeFiles/server.dir/thread_pool.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/w/cpp_workplace/playsnake/server/thread_pool.c > CMakeFiles/server.dir/thread_pool.c.i
 
 CMakeFiles/server.dir/thread_pool.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/server.dir/thread_pool.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/w/game2/server/thread_pool.c -o CMakeFiles/server.dir/thread_pool.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/w/cpp_workplace/playsnake/server/thread_pool.c -o CMakeFiles/server.dir/thread_pool.c.s
 
 CMakeFiles/server.dir/thread_pool.c.o.requires:
 
@@ -143,7 +143,7 @@ server: CMakeFiles/server.dir/game.c.o
 server: CMakeFiles/server.dir/thread_pool.c.o
 server: CMakeFiles/server.dir/build.make
 server: CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/w/game2/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -162,6 +162,6 @@ CMakeFiles/server.dir/clean:
 .PHONY : CMakeFiles/server.dir/clean
 
 CMakeFiles/server.dir/depend:
-	cd /mnt/w/game2/server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/w/game2/server /mnt/w/game2/server /mnt/w/game2/server/cmake-build-debug /mnt/w/game2/server/cmake-build-debug /mnt/w/game2/server/cmake-build-debug/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/w/cpp_workplace/playsnake/server /mnt/w/cpp_workplace/playsnake/server /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug /mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/server.dir/depend
 

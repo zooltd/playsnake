@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/mnt/w/game2/server/game.c" "/mnt/w/game2/server/cmake-build-debug/CMakeFiles/server.dir/game.c.o"
-  "/mnt/w/game2/server/server.c" "/mnt/w/game2/server/cmake-build-debug/CMakeFiles/server.dir/server.c.o"
-  "/mnt/w/game2/server/thread_pool.c" "/mnt/w/game2/server/cmake-build-debug/CMakeFiles/server.dir/thread_pool.c.o"
+  "/mnt/w/cpp_workplace/playsnake/server/game.c" "/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/server.dir/game.c.o"
+  "/mnt/w/cpp_workplace/playsnake/server/server.c" "/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/server.dir/server.c.o"
+  "/mnt/w/cpp_workplace/playsnake/server/thread_pool.c" "/mnt/w/cpp_workplace/playsnake/server/cmake-build-debug/CMakeFiles/server.dir/thread_pool.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

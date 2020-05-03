@@ -13,10 +13,13 @@
 #include <sys/epoll.h>
 #include <fcntl.h>
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "EndlessLoop"
 #define REFRESH 0.15
 
 #define OOPS(msg) {perror(msg);return 1;}
 #define PORT 9999
+#define EPOLL_SIZE 50
 
 int players = 0;//人数
 tpool_t *pool;
@@ -83,10 +86,10 @@ int main(void) {
     if (epoll_ctl(efd, EPOLL_CTL_ADD, listen_fd, &event) == -1) error(1, errno, "epoll_ctl add listen fd failed");
 
     /* Buffer where events are returned */
-    events = calloc(MAXSIZE, sizeof(event));
+    events = calloc(EPOLL_SIZE, sizeof(event));
 
     while (1) {
-        event_num = epoll_wait(efd, events, MAXSIZE, -1);
+        event_num = epoll_wait(efd, events, EPOLL_SIZE, -1);
         printf("epoll_wait wakeup\n");
         for (i = 0; i < event_num; i++) {
             //判断错误情况
@@ -264,3 +267,4 @@ int tcp_non_blocking_server_listen(int port) {
 
     return listen_fd;
 }
+#pragma clang diagnostic pop
